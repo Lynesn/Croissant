@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient(circle at 10% 20%,
+                rgba(216, 241, 230, 0.46) 0.1%,
+                rgba(233, 226, 226, 0.28) 90.1%);
+    display: block;
+    margin: 8px;
+}
+
+link {
+    display: none;
+}
+h1,
+p {
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    text-align: center;
+    display: block;
+}
+
+footer a {
+    margin: 0 10px;
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div {
+    display: block;
+}
+
+.croissant-photo {
+    max-width: 100px;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+}
+
